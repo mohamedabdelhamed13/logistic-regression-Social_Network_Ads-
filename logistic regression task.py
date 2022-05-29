@@ -12,7 +12,7 @@ import matplotlib.pyplot as plt
 # In[25]:
 
 
-dataset = pd.read_csv('C:\\Users\\moham\\OneDrive\\Desktop\\projects\\logistic regression task\\Social_Network_Ads.csv')
+dataset = pd.read_csv('Social_Network_Ads.csv')
 
 
 # In[26]:
@@ -35,13 +35,6 @@ x = dataset.iloc[:, [2, 3]].values
 
 # output
 y = dataset.iloc[:, 4].values
-
-
-# In[ ]:
-
-
-
-
 
 # In[29]:
 
@@ -116,10 +109,3 @@ plt.xlabel('Age')
 plt.ylabel('Estimated Salary')
 plt.legend()
 plt.show()
-
-
-# In[ ]:
-
-
-
-
